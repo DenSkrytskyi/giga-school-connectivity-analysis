@@ -1,6 +1,5 @@
 
-# GIGA School Connectivity Readiness Analysis
-### Using ITU ICT Indicators
+# GIGA School Connectivity Readiness Analysis Using ITU ICT Indicators
 
 1. Project Overview
 
