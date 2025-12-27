@@ -1,7 +1,7 @@
 
 # GIGA School Connectivity Readiness Analysis Using ITU ICT Indicators
 
-## 1. Project Overview
+1. Project Overview
 
 This project provides a data-driven assessment of country readiness for school connectivity in the context of the GIGA initiative, using official ICT indicators published by the International Telecommunication Union (ITU).
 
