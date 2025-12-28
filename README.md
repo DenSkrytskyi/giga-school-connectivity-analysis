@@ -42,35 +42,35 @@ Indicators describing universal access policies and financing mechanisms.
 4. Indicators Used
 Access
 
-Fixed-broadband subscriptions (per 100 inhabitants)
+-Fixed-broadband subscriptions (per 100 inhabitants)
 
-Population coverage by mobile network technology (2G/3G/4G)
+-Population coverage by mobile network technology (2G/3G/4G)
 
-Quality of Service
+-Quality of Service
 
-Average download throughput for fixed broadband
+-Average download throughput for fixed broadband
 
-Packet latency for fixed broadband
+-Packet latency for fixed broadband
 
 Service activation time for fixed-broadband service
 
-Backbone / Core Infrastructure
+-Backbone / Core Infrastructure
 
-International bandwidth usage (Mbit/s)
+-International bandwidth usage (Mbit/s)
 
-Lit/equipped international bandwidth capacity (Mbit/s)
+-Lit/equipped international bandwidth capacity (Mbit/s)
 
-Affordability
+-Affordability
 
-Fixed-broadband Internet basket (5 GB), % of GNI per capita
+-Fixed-broadband Internet basket (5 GB), % of GNI per capita
 
-Data-only mobile broadband basket (5 GB), % of GNI per capita
+-Data-only mobile broadband basket (5 GB), % of GNI per capita
 
-Governance
+-Governance
 
-Universal Access / Service (UAS) policy coverage
+-Universal Access / Service (UAS) policy coverage
 
-Universal service financing mechanisms
+-Universal service financing mechanisms
 
 
 5. Countries Covered
