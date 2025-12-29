@@ -22,7 +22,7 @@ The analysis demonstrates:
 
 The analysis uses the following selected ITU indicators:
 
-Pillar: Connectivity
+### Pillar: Connectivity
 
 Domain: Access
 
@@ -39,7 +39,7 @@ Domain: Use
 -Individuals using the Internet (% of individuals)
 
 
-Pillar: Affordability
+### Pillar: Affordability
 
 Domain: ICT Prices
 
