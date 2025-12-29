@@ -34,6 +34,7 @@ Domain: Access
 
 -Population coverage by mobile network technology (% of population)
 
+
 Domain: Use
 
 -Individuals using the Internet (% of individuals)
@@ -47,10 +48,10 @@ Domain: ICT Prices
 
 -Data-only mobile broadband basket 5GB (% of GNI per capita)
 
-
 These indicators allow the project to evaluate infrastructure availability, household readiness, effective use, and affordability constraints relevant to school connectivity.
 
-Selected Countries for Deep-Dive:
+
+## Selected Countries for Deep-Dive:
 
 -Ukraine
 
