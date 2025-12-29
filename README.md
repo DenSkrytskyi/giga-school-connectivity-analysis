@@ -59,11 +59,11 @@ The analysis includes a focused country-level comparison across six countries re
 ### Project Structure
 
 data/
-raw/ Raw CSV files from ITU DataHub
-processed/ Cleaned and harmonized datasets
+    raw/ Raw CSV files from ITU DataHub
+    processed/ Cleaned and harmonized datasets
 
 notebooks/
-01_context_and_framework.ipynb
-02_data_loading_and_selection.ipynb
-03_data_preparation_access.ipynb
-04_comparative_analysis_access.ipynb
+    01_context_and_framework.ipynb
+    02_data_loading_and_selection.ipynb
+    03_data_preparation_access.ipynb
+    04_comparative_analysis_access.ipynb
