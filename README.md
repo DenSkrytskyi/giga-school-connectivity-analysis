@@ -1,5 +1,5 @@
 # GIGA / School Connectivity Readiness Analysis  
-## Access Indicators – Exploratory and Comparative Analysis
+## Access Indicators - Exploratory and Comparative Analysis
 
 ### Project Overview
 
