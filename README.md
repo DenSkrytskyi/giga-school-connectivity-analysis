@@ -10,6 +10,8 @@ No school-level administrative or infrastructure data is used.
 
 The project is aligned with the analytical approach of the **GIGA initiative (ITU & UNICEF)**, which emphasizes infrastructure availability, coverage, and affordability as prerequisites for sustainable and meaningful school connectivity.
 
+Key charts from the analysis are available in the [figures](figures) directory for quick review.
+
 ---
 
 ### Analytical Scope and Methodology
