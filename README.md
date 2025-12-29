@@ -2,11 +2,10 @@
 
 Exploratory and comparative analysis of ICT access, usage, and affordability indicators relevant to school connectivity (GIGA framework)
 
+**All visualizations are already embedded in the notebooks. You can open any notebook - especially `04_comparative_analysis.ipynb` and immediately view the graphs and results without running any code**
+
 
 ## Project Overview
-
-### Key point
-**(All visualizations are already embedded in the notebooks. You can open any notebook - especially `04_comparative_analysis.ipynb` and immediately view the graphs and results without running any code)**
 
 
 This project analyzes school connectivity across selected countries using ITU data. The focus is on access, use, and affordability indicators that capture the availability and adoption of digital technologies relevant to schools.
