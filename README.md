@@ -5,7 +5,10 @@ Exploratory and comparative analysis of ICT access, usage, and affordability ind
 
 ## Project Overview
 
-This project analyzes school connectivity across a set of selected countries using ITU data. It focuses on access, use, and affordability indicators that capture the availability and adoption of digital technologies in households and the broader population.
+This project analyzes school connectivity across selected countries using ITU data. The focus is on access, use, and affordability indicators that capture the availability and adoption of digital technologies relevant to schools.
+
+Key point: All visualizations are already embedded in the notebooks. You can open any notebook - especially 04_comparative_analysis.ipynb - and immediately view the graphs and results without running any code.
+
 
 The analysis demonstrates:
 
@@ -15,7 +18,7 @@ The analysis demonstrates:
 
 -Comparative visualization of connectivity metrics
 
--Ability to assess digital readiness for schools
+Ability to assess digital readiness for schools
 
 
 ## Indicators Used
@@ -72,9 +75,9 @@ File Structure
 
 data/
 
-      raw/ — Raw CSV files from ITU DataHub
+      raw/ - Raw CSV files from ITU DataHub
 
-      processed/ — Cleaned CSV files after preprocessing
+      processed/ - Cleaned CSV files after preprocessing
 
 notebooks/
 
@@ -99,18 +102,3 @@ Affordability indicators: Compare cost of broadband against GNI per capita to hi
 
 Visualizations: Line plots, bar charts, and comparative country charts to present trends over time
 
-
-## How to Run
-
-Clone the repository:
-
-git clone https://github.com/yourusername/giga-school-connectivity-analysis.git
-
-
-Open notebooks in PyCharm or Jupyter
-
-Ensure all raw CSV files are in the data/raw folder
-
-Run notebooks sequentially from 01 to 04
-
-All preprocessing and cleaning scripts are in 03_data_preparation.ipynb.
