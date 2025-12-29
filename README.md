@@ -1,115 +1,69 @@
-# GIGA / School Connectivity Analysis
+# GIGA / School Connectivity Readiness Analysis  
+## Access Indicators – Exploratory and Comparative Analysis
 
-Exploratory and comparative analysis of ICT access, usage, and affordability indicators relevant to school connectivity (GIGA framework).
+### Project Overview
 
-**Visualizations:** All generated charts are available in the notebooks and also in the [`figures`](figures) folder.
+This repository presents an exploratory and comparative analysis of **ICT Access indicators** relevant to **school connectivity readiness** within the **GIGA framework**.
 
-## Project Overview
+The analysis uses **national-level ICT indicators published by the International Telecommunication Union (ITU)** as **proxies** to assess the enabling environment for connecting schools to the Internet.  
+No school-level administrative or infrastructure data is used.
 
-This project analyzes school connectivity across selected countries using ITU data. The focus is on access, use, and affordability indicators that capture the availability and adoption of digital technologies relevant to schools.
+The project is aligned with the analytical approach of the **GIGA initiative (ITU & UNICEF)**, which emphasizes infrastructure availability, coverage, and affordability as prerequisites for sustainable and meaningful school connectivity.
 
-The analysis demonstrates:
+---
 
-- Data cleaning and preparation from raw ITU CSV files
-- Country-level deep-dive for selected countries
-- Comparative visualization of connectivity metrics
-- Ability to assess digital readiness for schools
+### Analytical Scope and Methodology
 
+School connectivity is not equivalent to household or individual Internet access. Schools typically require:
 
-## Project Overview
+- stable fixed broadband connections,
+- wide and reliable network coverage,
+- sufficient access infrastructure,
+- affordability relative to national income levels.
 
+Due to the lack of globally comparable school-level datasets, this project adopts a **proxy-based analytical approach**, interpreting selected ICT indicators as measures of **school connectivity readiness**.
 
-This project analyzes school connectivity across selected countries using ITU data. The focus is on access, use, and affordability indicators that capture the availability and adoption of digital technologies relevant to schools.
+**Current analytical scope (Phase 1):**
+- Focus on **Access indicators** only
 
-The analysis demonstrates:
+Other dimensions relevant to GIGA (Quality of Service, backbone infrastructure, affordability, governance) are introduced conceptually and loaded at the data ingestion stage, but are **out of scope for the current analytical phase**.
 
--Data cleaning and preparation from raw ITU CSV files
+---
 
--Country-level deep-dive for selected countries
+### Indicators Used (Access)
 
--Comparative visualization of connectivity metrics
+The analysis focuses on the following ITU ICT Access indicators:
 
-Ability to assess digital readiness for schools
+- Households with Internet access at home (% of households)
+- Fixed-broadband subscriptions
+- Active mobile-broadband subscriptions
+- Population coverage by mobile network technology (% of population)
 
+These indicators capture infrastructure availability, technology diffusion, and baseline connectivity conditions relevant to assessing school connectivity readiness.
 
-## Indicators Used
+---
 
-The analysis uses the following selected ITU indicators:
+### Selected Countries
 
-### Pillar: Connectivity
+The analysis includes a focused country-level comparison across six countries representing diverse geographic regions and levels of digital development:
 
-Domain: Access
+- Ukraine  
+- South Africa  
+- Aruba  
+- Chile  
+- India  
+- Brazil  
 
--Households with Internet access at home (% of households)
+---
 
--Fixed-broadband subscriptions (per 100 people)
-
--Active mobile-broadband subscriptions (count)
-
--Population coverage by mobile network technology (% of population)
-
-
-Domain: Use
-
--Individuals using the Internet (% of individuals)
-
-
-### Pillar: Affordability
-
-Domain: ICT Prices
-
--Fixed-broadband Internet 5GB (% of GNI per capita)
-
--Data-only mobile broadband basket 5GB (% of GNI per capita)
-
-These indicators allow the project to evaluate infrastructure availability, household readiness, effective use, and affordability constraints relevant to school connectivity.
-
-
-## Selected Countries for Deep-Dive:
-
--Ukraine
-
--South Africa
-
--Aruba
-
--Chile
-
--India
-
--Brazil
-
-These countries were selected to provide a diverse mix of geographies, development levels, and digital adoption rates.
-File Structure
-
-## File Structure
+### Project Structure
 
 data/
-
-      raw/ - Raw CSV files from ITU DataHub
-
-      processed/ - Cleaned CSV files after preprocessing
+raw/ Raw CSV files from ITU DataHub
+processed/ Cleaned and harmonized datasets
 
 notebooks/
-
-      01_data_overview.ipynb
-
-      02_load_data.ipynb
-
-      03_data_preparation.ipynb
-
-      04_comparative_analysis.ipynb
-
-README.md
-
-
-## Analysis Highlights
-
-Access indicators: Track household connectivity and broadband availability trends
-
-Use indicators: Measure individual adoption of Internet and mobile technologies
-
-Affordability indicators: Compare cost of broadband against GNI per capita to highlight digital inclusion barriers
-
-Visualizations: Line plots, bar charts, and comparative country charts to present trends over time
-
+01_context_and_framework.ipynb
+02_data_loading_and_selection.ipynb
+03_data_preparation_access.ipynb
+04_comparative_analysis_access.ipynb
