@@ -66,6 +66,27 @@ These indicators allow the project to evaluate infrastructure availability, hous
 -Brazil
 
 These countries were selected to provide a diverse mix of geographies, development levels, and digital adoption rates.
+File Structure
+
+## File Structure
+
+data/
+
+      raw/ — Raw CSV files from ITU DataHub
+
+      processed/ — Cleaned CSV files after preprocessing
+
+notebooks/
+
+      01_data_overview.ipynb
+
+      02_load_data.ipynb
+
+      03_data_preparation.ipynb
+
+      04_comparative_analysis.ipynb
+
+README.md
 
 
 ## Analysis Highlights
